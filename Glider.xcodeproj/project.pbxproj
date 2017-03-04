@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0161F21E5F9683003E398A /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0161F11E5F9683003E398A /* Timestamp.swift */; };
+		AD0161F51E5F9821003E398A /* CommentIconDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0161F31E5F9821003E398A /* CommentIconDraw.swift */; };
+		AD0161F61E5F9821003E398A /* CommentIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0161F41E5F9821003E398A /* CommentIconView.swift */; };
+		AD0C36571E5FA3B0000F5494 /* MySafariViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C36561E5FA3B0000F5494 /* MySafariViewContoller.swift */; };
+		AD0C36591E5FA6D4000F5494 /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C36581E5FA6D4000F5494 /* CommentController.swift */; };
+		AD0C365B1E5FA6F6000F5494 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C365A1E5FA6F6000F5494 /* Comment.swift */; };
+		AD0C365F1E5FA913000F5494 /* AvatarDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C365C1E5FA913000F5494 /* AvatarDraw.swift */; };
+		AD0C36601E5FA913000F5494 /* DecodeHtml.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C365D1E5FA913000F5494 /* DecodeHtml.swift */; };
+		AD0C36631E5FA968000F5494 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C36621E5FA967000F5494 /* CommentCell.swift */; };
+		AD0C36651E5FA976000F5494 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C36641E5FA976000F5494 /* AvatarView.swift */; };
+		AD261E261E6322B600771CA0 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD261E251E6322B600771CA0 /* ListController.swift */; };
+		AD261E281E6322E600771CA0 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD261E271E6322E600771CA0 /* SearchController.swift */; };
+		AD261E2A1E63230D00771CA0 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD261E291E63230D00771CA0 /* AboutController.swift */; };
+		AD48ADED1E6B1C0300917F76 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48ADEC1E6B1C0300917F76 /* Story.swift */; };
+		AD679ACE1E68E2390018467C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD679ACD1E68E2390018467C /* NotificationCenter.framework */; };
+		AD679AD11E68E2390018467C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD679AD01E68E2390018467C /* TodayViewController.swift */; };
+		AD679AD81E68E2390018467C /* Glider Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD679ACB1E68E2390018467C /* Glider Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ADA1C45D1E6392E700100EA6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1C45C1E6392E700100EA6 /* Color.swift */; };
+		ADEDC1821E5F44C600DDA019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC1811E5F44C600DDA019 /* AppDelegate.swift */; };
+		ADEDC1841E5F44C600DDA019 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC1831E5F44C600DDA019 /* MainController.swift */; };
+		ADEDC1891E5F44C600DDA019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEDC1881E5F44C600DDA019 /* Assets.xcassets */; };
+		ADEDC18C1E5F44C600DDA019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEDC18A1E5F44C600DDA019 /* LaunchScreen.storyboard */; };
+		ADEDC1971E5F470200DDA019 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC1961E5F470200DDA019 /* HomeController.swift */; };
+		ADEDC1991E5F494800DDA019 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC1981E5F494800DDA019 /* HomeCell.swift */; };
+		ADEDC19F1E5F4AC800DDA019 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC19E1E5F4AC800DDA019 /* Story.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD679AD61E68E2390018467C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEDC1761E5F44C600DDA019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD679ACA1E68E2390018467C;
+			remoteInfo = "Glider Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD679ADC1E68E2390018467C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD679AD81E68E2390018467C /* Glider Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD0161F11E5F9683003E398A /* Timestamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
+		AD0161F31E5F9821003E398A /* CommentIconDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentIconDraw.swift; sourceTree = "<group>"; };
+		AD0161F41E5F9821003E398A /* CommentIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentIconView.swift; sourceTree = "<group>"; };
+		AD0C36561E5FA3B0000F5494 /* MySafariViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySafariViewContoller.swift; sourceTree = "<group>"; };
+		AD0C36581E5FA6D4000F5494 /* CommentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
+		AD0C365A1E5FA6F6000F5494 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		AD0C365C1E5FA913000F5494 /* AvatarDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarDraw.swift; sourceTree = "<group>"; };
+		AD0C365D1E5FA913000F5494 /* DecodeHtml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeHtml.swift; sourceTree = "<group>"; };
+		AD0C36621E5FA967000F5494 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		AD0C36641E5FA976000F5494 /* AvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		AD261E251E6322B600771CA0 /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		AD261E271E6322E600771CA0 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		AD261E291E63230D00771CA0 /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		AD48ADEC1E6B1C0300917F76 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		AD679ACB1E68E2390018467C /* Glider Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Glider Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD679ACD1E68E2390018467C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		AD679AD01E68E2390018467C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		AD679AD51E68E2390018467C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA1C45C1E6392E700100EA6 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		ADEDC17E1E5F44C600DDA019 /* Glider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEDC1811E5F44C600DDA019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADEDC1831E5F44C600DDA019 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		ADEDC1881E5F44C600DDA019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADEDC18B1E5F44C600DDA019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADEDC18D1E5F44C600DDA019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEDC1961E5F470200DDA019 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		ADEDC1981E5F494800DDA019 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		ADEDC19E1E5F4AC800DDA019 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD679AC81E68E2390018467C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD679ACE1E68E2390018467C /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEDC17B1E5F44C600DDA019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0161F01E5F966A003E398A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C365C1E5FA913000F5494 /* AvatarDraw.swift */,
+				ADA1C45C1E6392E700100EA6 /* Color.swift */,
+				AD0161F31E5F9821003E398A /* CommentIconDraw.swift */,
+				AD0C365D1E5FA913000F5494 /* DecodeHtml.swift */,
+				AD0161F11E5F9683003E398A /* Timestamp.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		AD679ACC1E68E2390018467C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD679ACD1E68E2390018467C /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD679ACF1E68E2390018467C /* Glider Widget */ = {
+			isa = PBXGroup;
+			children = (
+				AD679AD51E68E2390018467C /* Info.plist */,
+				AD48ADEC1E6B1C0300917F76 /* Story.swift */,
+				AD679AD01E68E2390018467C /* TodayViewController.swift */,
+			);
+			path = "Glider Widget";
+			sourceTree = "<group>";
+		};
+		ADEDC1751E5F44C600DDA019 = {
+			isa = PBXGroup;
+			children = (
+				ADEDC1801E5F44C600DDA019 /* Glider */,
+				AD679ACF1E68E2390018467C /* Glider Widget */,
+				AD679ACC1E68E2390018467C /* Frameworks */,
+				ADEDC17F1E5F44C600DDA019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEDC17F1E5F44C600DDA019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEDC17E1E5F44C600DDA019 /* Glider.app */,
+				AD679ACB1E68E2390018467C /* Glider Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEDC1801E5F44C600DDA019 /* Glider */ = {
+			isa = PBXGroup;
+			children = (
+				AD0161F01E5F966A003E398A /* Utility */,
+				ADEDC1951E5F450D00DDA019 /* Model */,
+				ADEDC1941E5F450C00DDA019 /* View */,
+				ADEDC1931E5F450B00DDA019 /* Controller */,
+				ADEDC1811E5F44C600DDA019 /* AppDelegate.swift */,
+				ADEDC1881E5F44C600DDA019 /* Assets.xcassets */,
+				ADEDC18A1E5F44C600DDA019 /* LaunchScreen.storyboard */,
+				ADEDC18D1E5F44C600DDA019 /* Info.plist */,
+			);
+			path = Glider;
+			sourceTree = "<group>";
+		};
+		ADEDC1931E5F450B00DDA019 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C36581E5FA6D4000F5494 /* CommentController.swift */,
+				ADEDC1961E5F470200DDA019 /* HomeController.swift */,
+				AD261E251E6322B600771CA0 /* ListController.swift */,
+				ADEDC1831E5F44C600DDA019 /* MainController.swift */,
+				AD0C36561E5FA3B0000F5494 /* MySafariViewContoller.swift */,
+				AD261E271E6322E600771CA0 /* SearchController.swift */,
+				AD261E291E63230D00771CA0 /* AboutController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ADEDC1941E5F450C00DDA019 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C36641E5FA976000F5494 /* AvatarView.swift */,
+				AD0C36621E5FA967000F5494 /* CommentCell.swift */,
+				AD0161F41E5F9821003E398A /* CommentIconView.swift */,
+				ADEDC1981E5F494800DDA019 /* HomeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ADEDC1951E5F450D00DDA019 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C365A1E5FA6F6000F5494 /* Comment.swift */,
+				ADEDC19E1E5F4AC800DDA019 /* Story.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD679ACA1E68E2390018467C /* Glider Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD679ADB1E68E2390018467C /* Build configuration list for PBXNativeTarget "Glider Widget" */;
+			buildPhases = (
+				AD679AC71E68E2390018467C /* Sources */,
+				AD679AC81E68E2390018467C /* Frameworks */,
+				AD679AC91E68E2390018467C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glider Widget";
+			productName = "Glider Widget";
+			productReference = AD679ACB1E68E2390018467C /* Glider Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		ADEDC17D1E5F44C600DDA019 /* Glider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEDC1901E5F44C600DDA019 /* Build configuration list for PBXNativeTarget "Glider" */;
+			buildPhases = (
+				ADEDC17A1E5F44C600DDA019 /* Sources */,
+				ADEDC17B1E5F44C600DDA019 /* Frameworks */,
+				ADEDC17C1E5F44C600DDA019 /* Resources */,
+				AD679ADC1E68E2390018467C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD679AD71E68E2390018467C /* PBXTargetDependency */,
+			);
+			name = Glider;
+			productName = Glider;
+			productReference = ADEDC17E1E5F44C600DDA019 /* Glider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEDC1761E5F44C600DDA019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yancen Li";
+				TargetAttributes = {
+					AD679ACA1E68E2390018467C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6R5VNYE87T;
+						ProvisioningStyle = Automatic;
+					};
+					ADEDC17D1E5F44C600DDA019 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6R5VNYE87T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ADEDC1791E5F44C600DDA019 /* Build configuration list for PBXProject "Glider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEDC1751E5F44C600DDA019;
+			productRefGroup = ADEDC17F1E5F44C600DDA019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEDC17D1E5F44C600DDA019 /* Glider */,
+				AD679ACA1E68E2390018467C /* Glider Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD679AC91E68E2390018467C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEDC17C1E5F44C600DDA019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEDC18C1E5F44C600DDA019 /* LaunchScreen.storyboard in Resources */,
+				ADEDC1891E5F44C600DDA019 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD679AC71E68E2390018467C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD679AD11E68E2390018467C /* TodayViewController.swift in Sources */,
+				AD48ADED1E6B1C0300917F76 /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEDC17A1E5F44C600DDA019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD261E2A1E63230D00771CA0 /* AboutController.swift in Sources */,
+				AD0161F21E5F9683003E398A /* Timestamp.swift in Sources */,
+				AD0C36591E5FA6D4000F5494 /* CommentController.swift in Sources */,
+				ADEDC19F1E5F4AC800DDA019 /* Story.swift in Sources */,
+				AD0C36571E5FA3B0000F5494 /* MySafariViewContoller.swift in Sources */,
+				AD0C365F1E5FA913000F5494 /* AvatarDraw.swift in Sources */,
+				AD0C36651E5FA976000F5494 /* AvatarView.swift in Sources */,
+				AD0C36631E5FA968000F5494 /* CommentCell.swift in Sources */,
+				AD0161F51E5F9821003E398A /* CommentIconDraw.swift in Sources */,
+				ADEDC1841E5F44C600DDA019 /* MainController.swift in Sources */,
+				ADEDC1821E5F44C600DDA019 /* AppDelegate.swift in Sources */,
+				AD261E281E6322E600771CA0 /* SearchController.swift in Sources */,
+				ADEDC1991E5F494800DDA019 /* HomeCell.swift in Sources */,
+				ADA1C45D1E6392E700100EA6 /* Color.swift in Sources */,
+				ADEDC1971E5F470200DDA019 /* HomeController.swift in Sources */,
+				AD0C365B1E5FA6F6000F5494 /* Comment.swift in Sources */,
+				AD0C36601E5FA913000F5494 /* DecodeHtml.swift in Sources */,
+				AD0161F61E5F9821003E398A /* CommentIconView.swift in Sources */,
+				AD261E261E6322B600771CA0 /* ListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD679AD71E68E2390018467C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD679ACA1E68E2390018467C /* Glider Widget */;
+			targetProxy = AD679AD61E68E2390018467C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADEDC18A1E5F44C600DDA019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEDC18B1E5F44C600DDA019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD679AD91E68E2390018467C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6R5VNYE87T;
+				INFOPLIST_FILE = "Glider Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.yancen.Glider.Glider-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD679ADA1E68E2390018467C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6R5VNYE87T;
+				INFOPLIST_FILE = "Glider Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.yancen.Glider.Glider-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ADEDC18E1E5F44C600DDA019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADEDC18F1E5F44C600DDA019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEDC1911E5F44C600DDA019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6R5VNYE87T;
+				INFOPLIST_FILE = Glider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.yancen.Glider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ADEDC1921E5F44C600DDA019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6R5VNYE87T;
+				INFOPLIST_FILE = Glider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.yancen.Glider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD679ADB1E68E2390018467C /* Build configuration list for PBXNativeTarget "Glider Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD679AD91E68E2390018467C /* Debug */,
+				AD679ADA1E68E2390018467C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEDC1791E5F44C600DDA019 /* Build configuration list for PBXProject "Glider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEDC18E1E5F44C600DDA019 /* Debug */,
+				ADEDC18F1E5F44C600DDA019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEDC1901E5F44C600DDA019 /* Build configuration list for PBXNativeTarget "Glider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEDC1911E5F44C600DDA019 /* Debug */,
+				ADEDC1921E5F44C600DDA019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADEDC1761E5F44C600DDA019 /* Project object */;
+}
