@@ -88,7 +88,9 @@ extension Story {
     var url: URL!
     
     if type == .search {
-      url = URL(string: "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=\(query)&hitsPerPage=100")!
+      var encodeUrl = URLComponents(string: "https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=100")
+      encodeUrl?.queryItems?.append(URLQueryItem(name: "query", value: query))
+      url = encodeUrl?.url
     } else {
       url = URL(string: "https://glider.herokuapp.com/\(type)?page=\(pagination)")!
     }
