@@ -23,7 +23,7 @@ Please feel free to help out with this project. If you see something that could 
 
 ## Screenshots
 ![](http://i.imgur.com/7ibJ697.png)
-![](http://i.imgur.com/Hl9iwCF.png)
+![](http://i.imgur.com/iT051mj.png)
 ![](http://i.imgur.com/zYSDMc4.png)
 ![](http://i.imgur.com/COnx9Yu.png)
 ![](http://i.imgur.com/A9mEF06.png)
