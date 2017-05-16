@@ -15,7 +15,8 @@ extension String {
     }
     let result = try? NSMutableAttributedString(data: data,
                                                 options: [
-                                                  NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType
+                                                  NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType,
+                                                  NSCharacterEncodingDocumentAttribute: String.Encoding.utf8.rawValue
                                                 ],
                                                 documentAttributes: nil)
     result?.addAttributes([NSFontAttributeName: UIFont(name: "AvenirNext-Regular", size: 16.0)!],
