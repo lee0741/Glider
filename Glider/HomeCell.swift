@@ -19,7 +19,7 @@ class HomeCell: UITableViewCell {
         let user = story?.user {
         infoLabel.text = "\(points) points by \(user) \((story?.time_ago)!)"
       } else {
-        infoLabel.text = "\(story?.time_ago)"
+        infoLabel.text = "\((story?.time_ago)!)"
       }
       
       commentView.numberOfComment = story!.comments_count
