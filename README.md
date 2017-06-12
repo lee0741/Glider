@@ -2,7 +2,7 @@
 Yet another reader for [Hacker News](https://news.ycombinator.com/news).
 
 ## PLEASE READ THIS
-The Hacker News [API](http://glider.herokuapp.com/) used by this app is hosted on [Heroku](herokuapp.com). If you are planning to scrape a huge amount of posts or (historical) data from HN, please **don't use this API**. Use the official [Hacker News API](https://github.com/HackerNews/API) or [HN Search API](http://hn.algolia.com/api) instead.
+The Hacker News [API](http://glider.herokuapp.com/) used by this app is hosted on [Heroku](https://www.heroku.com/). If you are planning to scrape a huge amount of posts or (historical) data from HN, please **don't use this API**. Use the official [Hacker News API](https://github.com/HackerNews/API) or [HN Search API](http://hn.algolia.com/api) instead.
 
 ## Features
 - Clean UI
